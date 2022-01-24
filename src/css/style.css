@@ -1,0 +1,508 @@
+*{
+    font-family: 'Roboto' , sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 50px;
+    background: #212121;
+ 
+  
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+   
+    
+   
+}
+
+.menu .menu_link{
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader{
+    /* position: relative; */
+     position: absolute; /* это для того что бы подвинуть бекграунд вверх для прозрачного фона (тажке задаем position relative для header) */
+    width: 100%;   /* эсть второй способ делать это иди в promo*/ 
+    height: 84px;
+    background: rgba(0,0,0, .6);
+    /* z-index: 2; */
+}
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.subheader .subheader_call{
+    margin-top: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+}
+.subheader .subheader_phone{
+    display: block;
+    color: #FFFFFF;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;    
+}
+.promo{
+    height: 800px;
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+   /*  transform: translateY(-84px);
+    z-index: 1;
+ */
+}
+
+ .promo .promo_header{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+   line-height: 60px;
+  
+} 
+.promo .promo_subheader{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 21px;
+} 
+.promo .promo_descr{
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+.promo .promo_btn{
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+  
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.reasons{
+  height: 767.44px;
+  padding-bottom: 64px;
+
+ 
+}
+.reasons .reasons_adv{
+    display: block;
+    margin: 39px auto 0 auto;
+    width: 115px;
+    height: 27.02px;
+    background: #000000;
+    border: 0;
+
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.reasons .reasons_header{
+    margin: 0;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.reasons .reasons_wrapper{
+    margin-top: 26px;
+}
+
+.reasons .reasons_items .reasons_sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 116px;
+    height: 116.07px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.reasons  .reasons_descr{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+}
+.reasons  .reasons_descr span{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.mobile_app{
+    height: 864.49px;
+}
+.mobile_app .mobile_btn{
+    display: block;
+    margin: 112px auto 0 auto;
+    width: 115px;
+    height: 27.02px;
+    background: #000000;
+    border: 0;
+
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mobile_app .mobile_header{
+    margin: 0;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.mobile_app .mobile_subheader{
+    margin-top: 1px;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    color: #222222;
+}
+.mobile_app .mobile_wrapper{
+    position: relative;
+    margin-top: 30px;
+}
+ .mobile_app .mobile_wrapper .mobile_items .card{
+    position: relative;
+    z-index: 1;
+} 
+
+.mobile_app .mobile_wrapper .mobile_descr{
+    position: absolute;
+    display: block;
+    z-index: 2; 
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    margin-top: -220px;
+    margin-left: 38px;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ .mobile_app .mobile_wrapper .plus_circle{
+    display: block;
+    position: absolute;
+    z-index: 2; 
+    align-items: center;
+    margin-top: -48.02px;
+    margin-left: 145px;
+    width: 29px;
+    height: 29.02px;
+    background: #000000;
+    border-radius: 100%;
+}  
+.mobile_app .mobile_wrapper .mobile_icon_pl{
+    display: block;
+    position: absolute;
+    z-index: 3; 
+    align-items: center;
+    margin-top: -41.02px;
+    margin-left: 153px;
+} 
+.choice{
+   
+    height: 898.51px;
+}
+
+.choice .choice_bg{
+    height: 499.28px;
+    background-color: #070716;
+}
+
+.choice .choice_bg .choice_btn{
+    display: block;
+    margin: 40px auto 0 auto; 
+    width: 115px;
+    height: 27.02px;
+    background: #FFFFFF;
+    border: 0;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.choice .choice_bg .choice_header{
+    display: block;
+    padding-top: 26.06px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.choice .choice_bg .choice_descr{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.choice .choice_bg .car_img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 54.03px;
+}
+
+.choice .car_descr{
+    display: block;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #222222;  
+}
+.conditions .cond_btn{
+    display: block;
+    margin: 112px auto 0 auto;
+    width: 115px;
+    height: 27.02px;
+    background: #000000;
+    border: 0;
+
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.conditions .cond_header{
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 28.02px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+.conditions .conditions_wrapper .whauto_header{
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    color: #1CA8C3;
+}
+
+
+.conditions .conditions_wrapper  .conds{
+    padding-top: 5px;
+}
+.conditions .conditions_wrapper  .conds span{
+padding-left: 25px;
+}
+.conditions .conditions_wrapper .cond_calc{
+    padding-top: 19px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1CA8C3;
+}
+.conditions_wrapper .requir_doc{
+    padding-top: 61px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FF5656;
+}
+
+.map .map_bg{
+    position: relative;
+    z-index: 0;
+    display: block;
+    margin-top: 89px;
+    height: 600px;
+    background-color: #080816;
+}
+.map  .map_bg .world_img{
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+}  
+.map .map_bg .map_btn{
+    position: absolute;
+    z-index: 3;
+    display: block;
+    margin: -568px auto 0 630px;
+    width: 79px;
+    height: 27.02px;
+    background: #FFFFFF;
+    border: 0;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.map .map_bg .map_btn a{
+    text-decoration: none;
+    color: black;
+}
+.map .map_bg .map_btn a:hover{
+    color:#0808f3;
+}
+.map .map_bg .map_header{
+    position: absolute;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 38px;
+    display: block;
+    margin: -520px auto 0 515px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.map .map_bg .map_descr{
+    position: absolute;
+    z-index: 3;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: block;
+    margin: -470px auto 0 523px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.map .map_bg .see_cities{
+    position: absolute;
+    z-index: 3;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    margin: -50px auto 0 580px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1FBAD6;
+}
+footer .foot_menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer .foot_menu .menu_link{
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #070716;
+}
+footer  .line{
+    display: block;
+    margin: 36.92px auto 32px 50px ;
+    width: 270px;
+    height: 4px;
+    background: #1FBAD6;
+}
+footer .info_menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .info_menu .menu_link{
+    font-weight: 300;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #999999;
+
+}
+footer .ru{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #1FBAD6;
+}
+ 
